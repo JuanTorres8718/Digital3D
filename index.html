@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body>
-    <header class="borde">
-        <img src="images/logo.png" alt="logo">
+    <header class="borde padcenter">
+        <img class="tamimg" src="images/logo.png" alt="logo">
     </header>
-    <nav class="borde">
-        <a href="#"><button>CEO</button></a>
-        <a href="#"><button>Nuestra Empresa</button></a>
-        <a href="#"><button>Cotizador</button></a>
+    <nav class="borde btncenter">
+        <a href="index.html" class="btn btncenter" id="btnvisit">CEO</a>
+        <a href="nuestra-empresa.html" class="btn btncenter">Nuestra Empresa</a>
+        <a href="cotizador.html" class="btn btncenter">Cotizador</a>
     </nav>
-    <section>
-        <article class="borde">
-            <img src="images/unnamed.jpg" alt="">
+    <section class="secdiv">
+        <article class="borde padimg">
+            <img class="tamphoto" src="images/unnamed.jpg" alt="">
         </article>
-        <article class="borde">
+        <article class="borde padtxt">
             <h1>Hola, soy <i>Carlos David Pérez</i></h1>
             <small>Y SOY DISEÑADOR GRAFICO</small>
-            <hr>
+            <hr align="left" class="hrbackground">
             <p>
                 ¡Hola! Si estás aquí, es porque quieres saber un poco más sobre mí, por eso, te voy a contar un poco quién soy, a qué me dedico, y cómo te puedo ayudar.
             </p>
@@ -39,7 +39,7 @@
                
         </article>
     </section>
-    <section class="borde">
+    <section class="borde sectcen">
         <h1>¿A qué me dedico?</h1>
         <hr>
         <p>Actualmente, me dedico profesionalmente al diseño web con WordPress a tiempo completo. Es un trabajo que me encanta y que me permite disfrutar, por fin, de pasar horas y horas delante del ordenador, cosa que nunca antes me había sucedido.
@@ -51,43 +51,55 @@
         </p>
     </section>
     <section class="borde">
-        <h1>¿Cómo puedo ayudarte?</h1>
-        <article class="borde">
-            <h2>Diseño Litográfico</h2>
-            <p>Nuestros servicios profesionales enfocados al diseño e impresión litográfica, nuestra maquinaria, como nuestro equipo de profesionales en las artes gráficas nos permite realizar grandes producciones con altos estándares de calidad.
-            </p>
-             <button>VER SERVICIO</button>
-        </article>
-        <article class="borde">
-            <h2>Diseño tienda online</h2>
-            <p>Te creo y diseño una tienda online completamente funcional con WordPress y WooCommerce para que puedas comenzar a vender tus productos. Da igual que tenga pocos o miles de productos.
-            </p>
-            <button>VER SERVICIO</button>
-        </article>
-        <article class="borde">
-            <h2>Mantenimiento web</h2>
-            <p>Me encargo de tener tu web hecha con WordPress al día y sin problemas, manteniéndola actualizada, optimizada, creando copias de seguridad, solucionando los problemas que vayan surgiendo, etc.
-            </p>
-            <button>VER SERVICIO</button>
-        </article>
+        <h1 class="txtcenter">¿Cómo puedo ayudarte?</h1>
+        <div class="padcenter">
+            <article class="borde sizecont">
+                <h2 class="txtcenter">Diseño Litográfico</h2>
+                <p>Nuestros servicios profesionales enfocados al diseño e impresión litográfica, nuestra maquinaria, como nuestro equipo de profesionales en las artes gráficas nos permite realizar grandes producciones con altos estándares de calidad.
+                </p>
+                <section class="padcenter">
+                    <button class="btnservice">VER SERVICIO</button>
+                </section>
+            </article>
+            <article class="borde sizecont sizespec">
+                <h2 class="txtcenter">Diseño tienda online</h2>
+                <p>Te creo y diseño una tienda online completamente funcional con WordPress y WooCommerce para que puedas comenzar a vender tus productos. Da igual que tenga pocos o miles de productos.
+                </p>
+                <section class="padcenter">
+                    <button class="btnservice">VER SERVICIO</button>
+                </section>
+            </article>
+            <article class="borde sizecont">
+                <h2 class="txtcenter">Mantenimiento web</h2>
+                <p>Me encargo de tener tu web hecha con WordPress al día y sin problemas, manteniéndola actualizada, optimizada, creando copias de seguridad, solucionando los problemas que vayan surgiendo, etc.
+                </p>
+                <section class="padcenter btnalign">
+                    <button class="btnservice">VER SERVICIO</button>
+                </section>
+            </article>
+        </div>
+        
     </section>
-    <section class="borde">
-        <h2>Herramientas de mi dominio</h2>
-        <table>
-            <tr>
-                <th>Photoshop</th>
-                <th>Illustrator</th>
-                <th>CorelDRAW</th>
-            </tr>
-            <tr>
-                <td>r</td>
-                <td>r</td>
-                <td>r</td>
-            </tr>
-        </table>
+    <section class="borde sectool">
+        <h2 class="txtcenter">Herramientas de mi dominio</h2>
+        <article class="padcenter">
+            <table>
+                <tr>
+                    <th>Photoshop</th>
+                    <th>Illustrator</th>
+                    <th>CorelDRAW</th>
+                </tr>
+                <tr>
+                    <td><img class="sizeimg" src="images/Adobe_Photoshop_CS5_icon.png" alt=""></td>
+                    <td><img class="sizeimg" src="images/200px-Illustrator_CC_icon.png" alt=""></td>
+                    <td><img class="sizeimg" src="images/corel.png" alt=""></td>
+                </tr>
+            </table>
+        </article>
+        
     </section>
-    <footer class="borde">
-
+    <footer class="borde sizebot">
+        <p class="txtcenter">Copyright &copy; 2020 | Medellín - Antioquia, Colombia | JTSAS | Contacto</p>
     </footer>
 </body>
 </html>

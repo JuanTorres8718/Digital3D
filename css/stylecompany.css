@@ -1,0 +1,19 @@
+td {
+    padding: 1.5% 1%;
+}
+
+.padtxt{
+    padding: 5% 4%;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+small{
+    font-size: 11px;
+}
+
+.tamphoto{
+    width: 28vw;
+    height: 60vh;
+    margin-left: 20px;
+}

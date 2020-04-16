@@ -1,3 +1,175 @@
 .borde {
     border: 1px solid black;
 }
+
+#btnvisit {
+    background-color: rgb(255, 153, 0);
+}
+
+
+.txtcenter{
+    text-align: center;
+    
+}
+
+.padcenter{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.tamimg{
+    width: 36vw;
+}
+
+.tamphoto{
+    width: 35vw;
+    height: 60vh;
+}
+
+.secdiv{
+    display: flex;
+    width: 100%;
+}
+
+hr{
+    width: 22%;
+    height: 0.2vh;
+    background-color: white;
+}
+.padimg{
+    display: flex;
+    justify-content: center;
+    flex-basis: 42%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.padtxt {
+    flex-basis: 58%;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.sectcen{
+    text-align: center;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-bottom: 85px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(129, 189, 245);
+}
+
+.btncenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: 25px;
+    margin: 10px 17px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 24vw;
+    height: 7vh;
+    background-color: rgba(91, 54, 121, 0.623);
+    color: black;
+}
+
+.sizecont{
+    margin: 1px 30px;
+    width: 23vw;
+    height: 48vh;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    font-weight: bold;
+    padding: 0% 2%;
+    border: 3.5px solid rgb(59, 155, 245);
+    font-size: 1.3vw ;
+}
+
+.sizespec {
+    height: 42vh !important;
+}
+
+.btnalign{
+    margin-top: 50px;
+}
+
+.btnservice{
+    cursor: pointer;
+    border: 2.5px outset black;
+    box-shadow: 3px 3px 0px black;
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+    padding: 1px 20px;
+    font-size: 1.2vw;
+    width: 17vw;
+    height: 4.5vh;
+}
+
+.sectool{
+    background-color:rgb(129, 189, 245) ;
+}
+
+table{
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bold;
+    text-align: left;
+}
+th{
+    background-color: rgb(209, 209, 209);
+}
+
+
+.rowcolor{
+    background-color: rgb(238, 235, 235);
+}
+
+.sizeimg{
+    width: 8vw;
+    padding: 20px 80px;
+}
+
+.sizebot{
+    padding: 2px ;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sizetable{
+    width: 60%;
+}
+
+.hrbackground {
+    background-color: black;
+}
+
+.contcenter{
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2.6vh;
+}
+
+.stylecont{
+    margin-top: 15px;
+}
+
+.padlabel{
+    padding-right: 10vw;
+}
+
+.styleinput{
+    border: 2.5px solid black;
+    height: 4vh;
+}

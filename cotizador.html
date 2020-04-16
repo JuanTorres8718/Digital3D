@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño digital 3D</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+    <header class="borde padcenter">
+        <img class="tamimg" src="images/logo.png" alt="logo">
+    </header>
+    <nav class="borde btncenter">
+        <a href="index.html" class="btn btncenter" >CEO</a>
+        <a href="nuestra-empresa.html" class="btn btncenter">Nuestra Empresa</a>
+        <a href="cotizador.html" class="btn btncenter" id="btnvisit">Cotizador</a>
+    </nav>
+    <section class="borde contcenter">
+        <article>
+            <p>Realice una cotización de un pedido, con el valor unitario que usted concidere conveniente.</p>
+        </article>
+        <article>
+            <div class="stylecont">
+                <label class="padlabel" for="quantity">Cantidad</label>
+                <input class="styleinput" type="number" id="quantity" name="quantity" >  
+            </div>
+            <div class="stylecont">
+                <label class="padlabel" for="unitvalue">Valor unitario</label>
+                <input class="styleinput" type="number" name="unitvalue" id="unitvalue" >
+            </div>
+            <div class="stylecont">
+                <label for="totalvalue">Valor Total</label>
+            </div>
+            <div class="stylecont">
+                <p>Descripción del pedido</p>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+            <div class="stylecont">
+                <button type="submit">Enviar</button>
+            </div>
+        </article>
+    </section>
+    
+    <footer class="borde sizebot">
+        <p class="txtcenter">Copyright &copy; 2020 | Medellín - Antioquia, Colombia | JTSAS | Contacto</p>
+    </footer>
+</body>
+</html>
