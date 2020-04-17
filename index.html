@@ -20,9 +20,9 @@
             <img class="tamphoto" src="images/unnamed.jpg" alt="">
         </article>
         <article class="borde padtxt">
-            <h1>Hola, soy <i>Carlos David Pérez</i></h1>
+            <h1 class="sizetitle">Hola, soy <i>Carlos David Pérez</i></h1>
             <small>Y SOY DISEÑADOR GRAFICO</small>
-            <hr align="left" class="hrbackground">
+            <hr id="hrtitle" class="hrbackground">
             <p>
                 ¡Hola! Si estás aquí, es porque quieres saber un poco más sobre mí, por eso, te voy a contar un poco quién soy, a qué me dedico, y cómo te puedo ayudar.
             </p>
@@ -41,7 +41,7 @@
     </section>
     <section class="borde sectcen">
         <h1>¿A qué me dedico?</h1>
-        <hr>
+        <hr class="hrcont">
         <p>Actualmente, me dedico profesionalmente al diseño web con WordPress a tiempo completo. Es un trabajo que me encanta y que me permite disfrutar, por fin, de pasar horas y horas delante del ordenador, cosa que nunca antes me había sucedido.
         </p>
         <p>A lo largo de este tiempo, he podido trabajar con más de 30 clientes de alrededor del país y del mundo, y he creado y diseñado más de 60 webs, gracias a lo cual he ido mejorando cada día más, perfeccionando la técnica y la creatividad a la hora de realizar nuevos proyectos.
@@ -84,22 +84,27 @@
         <h2 class="txtcenter">Herramientas de mi dominio</h2>
         <article class="padcenter">
             <table>
-                <tr>
-                    <th>Photoshop</th>
-                    <th>Illustrator</th>
-                    <th>CorelDRAW</th>
-                </tr>
-                <tr>
-                    <td><img class="sizeimg" src="images/Adobe_Photoshop_CS5_icon.png" alt=""></td>
-                    <td><img class="sizeimg" src="images/200px-Illustrator_CC_icon.png" alt=""></td>
-                    <td><img class="sizeimg" src="images/corel.png" alt=""></td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Photoshop</th>
+                        <th>Illustrator</th>
+                        <th>CorelDRAW</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img class="sizeimg" src="images/Adobe_Photoshop_CS5_icon.png" alt=""></td>
+                        <td><img class="sizeimg" src="images/200px-Illustrator_CC_icon.png" alt=""></td>
+                        <td><img class="sizeimg" src="images/corel.png" alt=""></td>
+                    </tr>
+                </tbody>
+                
             </table>
         </article>
         
     </section>
     <footer class="borde sizebot">
-        <p class="txtcenter">Copyright &copy; 2020 | Medellín - Antioquia, Colombia | JTSAS | Contacto</p>
+        <p class="txtcenter">Copyright &copy; 2020 | Medellín - Antioquia, Colombia | Nuestra empresa | Contacto</p>
     </footer>
 </body>
 </html>
