@@ -19,24 +19,32 @@
         <article>
             <p>Realice una cotización de un pedido, con el valor unitario que usted concidere conveniente.</p>
         </article>
-        <article>
-            <div class="stylecont">
-                <label class="padlabel" for="quantity">Cantidad</label>
-                <input class="styleinput" type="number" id="quantity" name="quantity" >  
+        <article id="cotizacion">
+            <div class="stylecont divflex">
+                <label class="padlabel" for="name">Nombre Completo</label>
+                <input class="styleinput" type="text" id="name" name="name" placeholder="Ingrese su nombre.">  
             </div>
-            <div class="stylecont">
+            <div class="stylecont divflex">
+                <label class="padlabel" for="email">Email</label>
+                <input class="styleinput" type="email" id="email" name="email" placeholder="Ingrese su correo electrónico">  
+            </div>
+            <div class="stylecont divflex">
+                <label class="padlabel" for="quantity">Cantidad</label>
+                <input class="styleinput" type="number" id="quantity" name="quantity" placeholder="Ingrese la cantidad">  
+            </div>
+            <div class="stylecont divflex">
                 <label class="padlabel" for="unitvalue">Valor unitario</label>
-                <input class="styleinput" type="number" name="unitvalue" id="unitvalue" >
+                <input class="styleinput" type="number" name="unitvalue" id="unitvalue" placeholder="Ingrese el valor">
             </div>
             <div class="stylecont">
                 <label for="totalvalue">Valor Total</label>
             </div>
             <div class="stylecont">
                 <p>Descripción del pedido</p>
-                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="Puedes describirnos como es tu pedido aquí.."></textarea>
             </div>
-            <div class="stylecont">
-                <button type="submit">Enviar completo</button>
+            <div class="stylecont stylebtn">
+                <button type="submit">Enviar</button>
             </div>
         </article>
     </section>

@@ -37,7 +37,7 @@ body {
 }
 
 .sizeofic{
-    width: 35vw;
+    width: 26vw;
     height: 60vh;
 }
 
@@ -133,7 +133,7 @@ body {
 .sizecont{
     margin: 1px 30px;
     width: 23vw;
-    height: 48vh;
+    height: 50vh;
     background-color: rgb(255, 153, 0);
     color: white;
     font-weight: bold;
@@ -141,26 +141,57 @@ body {
     border: 3.5px solid rgb(59, 155, 245);
     font-size: 1.3vw ;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
 }
+
+/* .padcenter .sizecont .boton_ver{
+    background-color: white;
+    border: 1px solid #000000;
+    color:#e07923;
+    padding: 5px;
+    box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.padcenter .sizecont .boton_ver:hover{
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+    color: #4890cb;
+} */
 
 .sizespec {
-    height: 42vh !important;
+    height: 44vh !important;
 }
 
-.btnalign{
-    margin-top: 50px;
-}
+
 
 .btnservice{
     cursor: pointer;
     border: 2.5px outset black;
-    box-shadow: 3px 3px 0px black;
+    box-shadow: 3px 3px 0px rgb(0, 0, 0, 0.75);
     color: rgb(255, 145, 0);
     font-weight: bold;
-    padding: 1px 20px;
+    padding: 1px 10px;
     font-size: 1.2vw;
-    width: 17vw;
-    height: 4.5vh;
+    width: 15vw;
+    height: 4vh;
+    background-color: white;
+}
+
+.btnalign {
+    margin-top: 40px;
+}
+
+section .sizecont section a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+section .sizecont .acenter {
+    display: flex;
+    justify-content: center;
 }
 
 .sectool{
@@ -199,24 +230,61 @@ th{
 
 
 .contcenter{
-    padding: 2% 5%;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size: 2.6vh;
 }
 
 .stylecont{
-    margin-top: 15px;
+    margin-top: 34px;
 }
 
 .padlabel{
-    padding-right: 10vw;
+    padding-right: 6vw;
 }
 
 .styleinput{
     border: 2.5px solid black;
     height: 4vh;
+}
+
+.contcenter #cotizacion .divflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contcenter #cotizacion input {
+    padding: 10px;
+    width: 250px;
+    margin-top: -15px;
+
+}
+.contcenter #cotizacion p {
+    margin: 2px;
+}
+
+
+.contcenter #cotizacion textarea {
+    width: 100%;
+    border: 2.5px solid black;
+    padding: 10px;
+}
+
+.contcenter #cotizacion .stylebtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contcenter #cotizacion button {
+    padding: 5px 15px;
+    font-size: 14px;
+    border: 2.5px solid black;
+    box-shadow: 3px 3px 0px black;
+    margin-left: 35%;
+    cursor: pointer;
 }
